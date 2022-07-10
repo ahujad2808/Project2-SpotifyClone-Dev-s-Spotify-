@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Finlandica:ital@1&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Finlandica", sans-serif;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  height: 35px;
+  position: sticky;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.logo {
+  width: 32px;
+  text-align: center;
+  margin: 0 4px;
+  /* align-items: center; */
+}
+
+.conatiner {
+  background-color: beige;
+
+  max-height: 75vw;
+}
+
+#About {
+  color: white;
+}
+
+.bottom {
+  background-color: black;
+  height: 65px;
+  justify-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: sticky;
+  align-items: center;
+  bottom: 0;
+}
+
+.songList {
+  background-color: aqua;
+  margin: 32px 132px;
+  min-height: 45vw;
+  border-radius: 10px;
+  background-image: url("bg1.jpg");
+  color: white;
+}
+
+.txt {
+  margin-left: 20px;
+  margin-top: 35px;
+  font-size: 250%;
+}
+
+.songName {
+  width: 25vw;
+  justify-content: space-around;
+  margin-left: 25px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 35px;
+}
+
+.songimg {
+  width: 25px;
+
+  margin-left: -22px;
+  border-radius: 25px;
+}
+
+.sngduration {
+  margin-right: -25px;
+}
+
+.play {
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+#progressbar {
+  width: 75vw;
+}
+
+.btn {
+  color: white;
+  cursor: pointer;
+  justify-content: baseline;
+}
+
+.songInfo {
+  color: white;
+  position: absolute;
+  left: 10vw;
+  font-family: "Varela Round", sans-serif;
+}
+
+.songInfo img {
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
